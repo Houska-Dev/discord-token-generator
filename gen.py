@@ -1,6 +1,6 @@
 import random
 
-chars = "ODc5NDYyMDk2MjMwODE3ODMzYS0kPgLClIkA5-WqafNWVXe4ib7xX07Ks"
+chars = "qwertzuiopasdfghjklyxcvbnmQWERTZUIOPASDFGHJKLYXCVBNM-_0147258369"
 
 for i in range(5000) :
     first = ''.join((random.choice(chars) for i in range(24)))
